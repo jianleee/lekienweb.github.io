@@ -3,9 +3,6 @@
   margin:0px;
   box-sizing: border-box;
 }
-body{
-  font-family: Roboto, sans-serif;
-}
 
 .wrapper {
   width: 1140px;
@@ -511,12 +508,19 @@ h2.block:before {
   font-weight: normal;
 }
 #contact {
-  padding-top: 64px;
+  position: relative;
+}
+#contact:before{
+  content: ' ';
+  top: 160px;
+  left: 0px;
+  position: absolute;
+  display: block;
   background-image: url(image/map.jpg);
   background-repeat: no-repeat;
-  background-position: 0px 159px;
-  height: 866px;
-  padding-bottom: 104px;
+  height: 346px;
+  width: 100%;
+  background-size:cover;
 }
 #contact .wrapper h2{
   margin-bottom: 64px;
@@ -539,13 +543,13 @@ h2.block:before {
   font-size: 20px;
   line-height: 26px;
   color: #292f36;
-  margin-bottom: 33px;
   text-transform: uppercase;
   font-weight: normal;
 }
 #contact .wrapper >div {
-  margin-top: 458px;
+  margin-top: 567px;
   width: 555px;
+  margin-bottom: 100px;
 }
 #contact .wrapper {
   position: relative;
@@ -555,7 +559,7 @@ h2.block:before {
   width: 555px;
   position: absolute;
   right: 0px;
-  top: 314px;
+  top: 377px;
 }
 #contact .wrapper form{
   padding: 30px;
