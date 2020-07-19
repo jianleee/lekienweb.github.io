@@ -785,6 +785,9 @@ footer ul li:nth-child(5){
 
 }
 @media screen and (max-width: 500px){
+  #work .wrapper > div >div img{
+  margin:0 auto;
+ }
  #banner{
   height: 350px;
  }
